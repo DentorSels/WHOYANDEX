@@ -12,19 +12,43 @@
     width: 200px;
     padding: 10px;
 }
+.nav_menu:hover{
+    background: rgba(128, 128, 128, 0.13);
+    transition: .5s;
+}
 div{
     margin-top: 10px;
 }
 a{
-    color: rgb(83, 83, 83);
+    color: slategray;;
   
   }
+
   .btn_link{
         padding: 5px;
-        border-radius: px;
+        border-radius: 5px;
         margin-top: 5px;
         transition: .2s;
         cursor: pointer;
         margin: 0px 2px;
         background: whitesmoke;
   }
+  .btn_link:hover{
+    background: #E0E0E0;
+  }
+.news__tab-text:hover{
+    color: red;
+    transition: 0.3s;
+}
+.news__tab-text{
+    color: royalblue;
+    width: 200px;
+}
+
+h1{
+    width: 230px;
+}
+a:hover{
+    color: red;
+    transition: 0.3s;
+}
